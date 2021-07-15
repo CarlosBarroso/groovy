@@ -9,8 +9,7 @@ def test() {
         stages {
             stage('Verify') {                  
                 steps {
-                    echo "Module: ${MODULE}"
-                    sh 'git version'
+                    echo "Module"                    
                 }
             }
         }
