@@ -10,7 +10,7 @@ def call() {
     }
 }
 */
-
+/*
 def call() {
     pipeline {
         agent any
@@ -26,9 +26,9 @@ def call() {
         }
     }
 }
+*/
 
 
-/*
 def call() {
     pipeline {
         agent {
@@ -50,4 +50,4 @@ def call() {
         }
     }
 }
-*/
+
