@@ -1,5 +1,5 @@
 #!/groovy
-
+/*
 def call() {
     node {
       sh '''
@@ -9,9 +9,9 @@ def call() {
       '''
     }
 }
+*/
 
-/*
-def test() {
+def call() {
     pipeline {
         agent any
         environment {
@@ -26,7 +26,7 @@ def test() {
         }
     }
 }
-*/
+
 
 /*
 def call() {
