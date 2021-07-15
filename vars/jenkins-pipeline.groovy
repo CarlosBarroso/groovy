@@ -1,5 +1,17 @@
 #!/groovy
 
+def call() {
+    node {
+      sh '''
+        git version
+        docker version
+        dotnet --list-sdks
+        dotnet --list-runtimes
+      '''
+    }
+}
+
+/*
 def test() {
     pipeline {
         agent any
@@ -15,7 +27,10 @@ def test() {
         }
     }
 }
-/*def call() {
+*/
+
+/*
+def call() {
     pipeline {
         agent {
             docker {
@@ -37,5 +52,3 @@ def test() {
     }
 }
 */
-
-return this;
