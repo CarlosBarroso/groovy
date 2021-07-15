@@ -13,7 +13,7 @@ def call() {
                   dotnet --list-runtimes
                 '''
                 sh 'printenv'
-                sh 'ls -l "$WORKSPACE"'
+//                sh 'ls -l "$WORKSPACE"'
             }
         }
     }
