@@ -1,6 +1,6 @@
 #!/groovy
 
-def call() {
+def test() {
     pipeline {
         agent any
         environment {
