@@ -3,8 +3,7 @@
 def call() {
     node {
       sh '''
-        git version
-        docker version
+        git version       
         dotnet --list-sdks
         dotnet --list-runtimes
       '''
